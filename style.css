@@ -1,0 +1,15 @@
+h1 {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 48px !important; 
+    color: #FEB91F !important;
+}
+
+.introduction {
+    padding: 120px 32px;
+    background-image: url("C:\Users\filip\OneDrive\Desktop\behance cover\20230114_080915.jpg") !important;
+    background-color: #9E0D14;
+}
+
+nav {
+    background-color: #FEB91F !important;
+}
