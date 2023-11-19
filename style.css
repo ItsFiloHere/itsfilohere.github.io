@@ -2,6 +2,13 @@ h1 {
     font-family: 'Ubuntu', sans-serif !important;
     font-size: 48px !important; 
     color: #FEB91F !important;
+    line-height: 32px;
+}
+
+p {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 16px;
+    color: #000000;
 }
 
 .introduction {
@@ -12,4 +19,58 @@ h1 {
 
 nav {
     background-color: #FEB91F !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    position: sticky !important;
+    top: 0;
+}
+
+.quote {
+    text-align: center;
+    background-color: #DE8A14 !important;
+    padding: 48px 24px;
+    position: relative;
+}
+
+h2 {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 32px !important;
+    z-index: 1;
+}
+
+.quote h2 {
+    color: #F0CEA0;
+}
+
+.quote .fa-quote-left {
+    position: absolute;
+  top: 8px;
+  left: 16px;
+  color: #F0CEA0;
+}
+
+.quote .fa-quote-right {
+    position: absolute;
+  bottom: 8px;
+  right: 16px;
+  color: #F0CEA0;
+}
+
+.i-am-filo {
+    display: flex;
+}
+
+.i-am-filo .photo {
+    flex: 1;
+    width: 50%;
+}
+
+.i-am-filo .text {
+    flex: 1;
+    width: 50%;
+    padding: 80px 32px 80px 24px;
+}
+
+.i-am-filo .text h2 {
+    color: #000000;
+    margin-bottom: 80px;
 }
