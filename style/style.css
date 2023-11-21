@@ -64,7 +64,7 @@ h2 {
 .i-am-filo .photo {
     flex: 1;
     flex-basis: 50%;
-    background-image: url("./20230206_001330.jpg");
+    background-image: url("../assets/20230206_001330.jpg");
     height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
@@ -91,7 +91,7 @@ h2 {
     flex: 1;
     flex-basis: 70%;
     width: 70vh !important;
-    background-image: url("./20230206_001330.jpg");
+    background-image: url("../assets/20230206_001330.jpg");
     height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
