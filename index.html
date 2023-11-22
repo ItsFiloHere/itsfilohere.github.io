@@ -123,7 +123,39 @@
               <p>Ciao! Filo's here. Al momento non so cosa scrivere, quindi provo a mettere giuù delle parole a caso per vedere come sta il testo. Possiamo vederla come una piccola alternativa al Lorem Ipsum, no? Comunque ciao ciao!</p>
             </div>
             <div class="form-container">
-              <h2>Ciao</h2>
+              <form>
+                <div class="dati-personali">
+                  <div class="nome">
+                  <label for="nome" class="form-label" style="display: none">Nome</label>
+                  <input type="text" class="form-control" id="nome" placeholder="Nome">
+                </div>
+                <div class="cognome">
+                  <label for="cognome" class="form-label" style="display: none">Cognome</label>
+                  <input type="text" class="form-control" id="cognome" placeholder="Cognome">
+                </div>
+              </div>
+                <div class="email">
+                  <label for="email" class="form-label" style="display: none">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="hello@itsfilohere.com">
+                </div>
+                <div class="motivo-contatto">
+                  <label>Perché mi stai contattando?</label><br>
+                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo1">
+                  <label for="motivo1">Curiosità</label><br>
+                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo2">
+                  <label for="motivo2">Per scoprire la risposta a ogni domanda della vita</label><br>
+                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo3">
+                  <label for="motivo3">Voglio sborsare gli schei</label>
+                </div>
+                <div class="messaggio">
+                  <textarea class="form-control" placeholder="Questo spazio è tutto tuo!"></textarea>
+                </div>
+                <div class="invio">
+                  <input type="checkbox" class="form-check-input" id="privacy">
+                  <label for="privacy" class="form-label">Accetto <a href="https://youtu.be/dQw4w9WgXcQ?si=o-iLx_ZBbe751ZTG">l'informativa privacy</a></label><br>
+                  <button type="submit" class="btn btn-primary">Invia</button>
+                </div>
+              </form>
             </div>
           </div> <!-- Chiusura Form-->
     </body>
