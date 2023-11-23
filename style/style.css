@@ -278,24 +278,85 @@ margin-right: 2px;
     padding-bottom: 4px
 }
 
-.form .form-container form #nome {
-    border: 4px solid #CA6702 !important;
+.form .form-container form .campo-input {
+    border: 4px solid #005F73 !important;
     font-family: 'Titillium Web', sans-serif !important;
     font-weight: bold !important;
-    color: #CA6702 !important;
+    color: #005F73 !important;
     padding: 8px 16px !important;
     text-transform: uppercase !important;
     border-radius: 0px !important;
     background-color: transparent !important;
 }
 
-.form .form-container form #cognome {
-    border: 4px solid #CA6702 !important;
+.form .form-container form .campo-input::placeholder {
+    color: #005F73 !important;
+}
+
+.form .form-container form .campo-input:focus {
+    outline: solid 4px #CA6702 !important;
+    outline-offset: 2px !important;
+    
+}
+
+.form .form-container form .motivo-contatto label {
     font-family: 'Titillium Web', sans-serif !important;
     font-weight: bold !important;
-    color: #CA6702 !important;
-    padding: 8px 16px !important;
+    color: #005F73 !important;
+    margin-bottom: 8px !important;
+    margin-right: 8px !important;
     text-transform: uppercase !important;
-    border-radius: 0px !important;
-    background-color: transparent !important;
+}
+
+.form .form-container form .motivo-contatto {
+    padding: 8px !important;
+}
+
+.form .form-container form .invio button {
+    background-color: #005F73 !important;
+    color: #ffffff;
+    border-radius: 0;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    padding: 16px 32px;
+}
+
+.form .form-container form .invio button:hover {
+    background-color: #0A9396 !important;
+}
+
+.form .form-container form .invio button:focus {
+    outline: 4px solid #CA6702 !important;
+    outline-offset: 2px !important;
+}
+
+.form .form-container form .invio .privacy {
+    font-family: 'Titillium Web', sans-serif !important;
+    color: #005F73 !important;
+}
+
+.form .form-container form .invio .privacy a {
+    color: #005F73 !important;
+}
+
+.form .form-container form .invio .privacy a:hover {
+    color: #005F73 !important;
+    text-decoration: none !important;
+}
+
+.footer .flex {
+    display: flex;
+    background-color: #001219;
+    padding: 80px 32px;
+}
+
+.footer .flex .social-logo {
+    flex: 1;
+    flex-basis: 60%;
+}
+
+.footer .flex .text {
+    flex: 1;
+    flex-basis: 60%;
 }
