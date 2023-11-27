@@ -23,6 +23,11 @@ nav {
     position: sticky !important;
     top: 0;
     z-index: 100000000;
+    padding: 32px 32px !important;
+}
+
+nav img {
+    margin-right: 32px;
 }
 
 .quote {
@@ -80,6 +85,31 @@ h2 {
 .i-am-filo .text h2 {
     color: #000000;
     margin-bottom: 80px;
+}
+
+.curiosities {
+    display: flex;
+    width: 100%;
+    padding: 40px 32px !important;
+    background-color: #FEB91F;
+}
+
+.curiosities .text {
+    flex: 1;
+    flex-basis: 40%;
+    font-family: 'Ubuntu', sans-serif !important;
+    font-weight: bold !important;
+}
+
+.curiosities .stickers {
+    flex: 1;
+    flex-basis: 60%;
+    text-align: justify !important;
+}
+
+.curiosities .stickers img {
+    margin-right: 80px;
+
 }
 
 .graphics {
@@ -347,7 +377,7 @@ margin-right: 2px;
 
 .footer .flex {
     display: flex;
-    background-color: #001219;
+    background-color: #005F73;
     padding: 80px 32px;
 }
 
@@ -356,7 +386,33 @@ margin-right: 2px;
     flex-basis: 60%;
 }
 
+.footer .flex .social-logo img {
+    margin-right: 32px;
+}
+
 .footer .flex .text {
     flex: 1;
     flex-basis: 60%;
+    text-align: right;
+    color: #E9D8A6;
+}
+
+.footer .flex .text a {
+    color: #E9D8A6;
+}
+
+.footer .flex .text a:hover {
+    color: #94D2BD;
+}
+
+.footer .credits {
+    background-color: #001219;
+    text-align: left;
+    padding: 16px 32px;
+}
+
+.footer .credits .ptext {
+    color: #E9D8A6 !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold;
 }
