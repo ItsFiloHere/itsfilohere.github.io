@@ -5,6 +5,11 @@ h1 {
     line-height: 32px;
 }
 
+h4 {
+    font-family: 'Ubuntu', sans-serif !important;
+    font-size: 24px !important;
+}
+
 p {
     font-family: 'Roboto Slab', sans-serif;
     font-size: 16px;
@@ -481,4 +486,84 @@ margin-right: 2px;
     text-transform: uppercase;
     margin-bottom: 0px;
     letter-spacing: 2px;
+}
+
+.what-do-i-do .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.what-do-i-do .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.what-do-i-do .photo {
+    width: 60%;
+    background-image: url('../assets/20230206_001330.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.what-do-i-do .text h2 {
+    margin-bottom: 80px;
+}
+
+.legend {
+    padding: 40px 32px !important;
+    background-color:#0A9396;
+}
+
+.legend .text {
+    width: 30%;
+    color: #E9D8A6;
+}
+
+.legend .list {
+    width: 70%;
+}
+
+.legend .list a {
+    color: #E9D8A6;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.legend .list a:hover {
+    color: #94D2BD;
+    text-decoration: none;
+}
+
+.essere.giovani {
+    border-bottom: solid 4px #AE2012 !important;
+}
+
+.essere-giovani .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: gray;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.essere-giovani .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.essere-giovani .photo {
+    width: 60%;
+    background-image: url('../assets/20230206_001330.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.essere-giovani .text h2 {
+    margin-bottom: 80px;
 }
