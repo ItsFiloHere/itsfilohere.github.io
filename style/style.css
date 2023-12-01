@@ -264,7 +264,6 @@ margin-right: 2px;
 
 .form {
     background-color: #94D2BD;
-    display: flex;
     width: 100%;
 }
 .form .subheading {
@@ -276,8 +275,7 @@ margin-right: 2px;
 }
 
 .form .text {
-    flex: 1;
-    flex-basis: 30%;
+    width: 30%;
     padding: 80px 32px 80px 24px;
 }
 
@@ -287,9 +285,40 @@ margin-right: 2px;
 }
 
 .form .form-container {
-    flex: 1;
-    flex-basis: 70%;
+    width: 45%;
     padding: 32px;
+}
+
+.form .telephone {
+    width: 25%;
+    padding: 32px 32px 32px 16px;
+}
+
+.form .telephone .contact {
+    background-color: #94D2BD !important;
+    text-align: center;
+    height: 100%;
+}
+
+.form .telephone .contact #small-text {
+    font-family: 'Titillium Web', sans-serif;
+    color: #0A9396;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    display: inline-block;
+
+}
+
+.form .telephone .contact #bigger-text {
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 32px;
+    color: #0A9396;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    display: inline-block;
+
 }
 
 .form .form-container form .dati-personali {
@@ -383,7 +412,7 @@ margin-right: 2px;
 .footer .flex {
     display: flex;
     background-color: #005F73;
-    padding: 80px 32px;
+    padding: 24px 32px;
 }
 
 .footer .flex .social-logo {
@@ -539,10 +568,6 @@ margin-right: 2px;
     text-decoration: none;
 }
 
-.essere.giovani {
-    border-bottom: solid 4px #AE2012 !important;
-}
-
 .essere-giovani .subheading {
     font-family: 'Titillium Web', sans-serif;
     color: gray;
@@ -577,4 +602,114 @@ margin-right: 2px;
 .carousel {
     height: 60vh;
     overflow: hidden;
+}
+
+.sito-us-asiago {
+    background-color: #0679CC;
+    border-bottom: solid 4px #FAA916 !important;
+    border-top: solid 4px #FAA916 !important;
+    color: #C5FFFD !important;
+}
+
+.sito-us-asiago .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #C5FFFD;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.sito-us-asiago .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.sito-us-asiago .photo {
+    width: 60%;
+    background-image: url('../assets/20230206_001330.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sito-us-asiago .text h2 {
+    margin-bottom: 80px;
+}
+
+.sito-us-asiago .text p {
+   color: #C5FFFD !important;
+}
+
+.sito-tech-is-easy {
+    background-color: #CEEC18;
+    border-bottom: solid 4px #0F797A !important;
+    color: #0F797A !important;
+}
+
+.sito-tech-is-easy .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #0F797A;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.sito-tech-is-easy .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.sito-tech-is-easy .photo {
+    width: 60%;
+    background-image: url('../assets/20230206_001330.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sito-tech-is-easy .text h2 {
+    margin-bottom: 80px;
+}
+
+.sito-tech-is-easy .text p {
+    color: #0F797A !important;
+}
+
+.like-what-u-see {
+    text-align: center;
+    padding: 80px 32px;
+    background-color: #AE2012;
+}
+
+.like-what-u-see h1 {
+    color: #E9D8A6 !important;
+    margin-bottom: 16px;
+}
+
+.like-what-u-see p {
+    color: #E9D8A6 !important;
+    padding-bottom: 16px !important;
+}
+
+.secondary-button-outline {
+    margin-top: 16px !important;
+    background-color: none;
+    color: #E9D8A6;
+    padding: 16px 32px;
+    border-radius: 0;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold;
+    border: solid 4px #E9D8A6;
+    box-shadow: none;
+    transition: ease 0.3s;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-top: 16px !important;
+}
+
+.secondary-button-outline:hover {
+    background-color: #E9D8A6;
+    color: #AE2012;
+    transition: ease 0.3s;
+    box-shadow: none;
 }
