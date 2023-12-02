@@ -15,7 +15,7 @@
     <body>
         <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#">
+              <a class="navbar-brand" href="./index.html">
                 <img src="./assets/firma2_Filo.png" width="50px">
               </a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -24,22 +24,22 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#"><i class="fa-solid fa-house"></i></a>
+                    <a class="nav-link active" aria-current="page" href="./index.html"><i class="fa-solid fa-house"></i></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Chi sono</a>
+                    <a class="nav-link" href="#i-am-filo">Chi sono</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#i-am-filo" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                       I miei progetti
                     </a>
                     <ul class="dropdown-menu">
                       <li><a class="dropdown-item" href="./grafica.html">Illustrazione</a></li>
-                      <li><a class="dropdown-item" href="#">Progettazione siti web</a></li>
+                      <li><a class="dropdown-item" href="./siti.html">Progettazione siti web</a></li>
                     </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Contattami</a>
+                    <a class="nav-link" href="#form">Contattami</a>
                   </li>
                 </ul>
               </div>
@@ -56,19 +56,19 @@
             <i class="fa-solid fa-quote-right fa-5x"></i>
           </div> <!-- Chiusura quote -->
 
-          <div class="i-am-filo">
+          <div class="i-am-filo" id="i-am-filo">
             <div class="photo"></div>
             <div class="text">
               <h2>Il ragazzo della<br>porta accanto <i class="fa-solid fa-door-open"></i></h2>
               <p>Ciao! Filo's here! Sono un ragazzo semplice semplice - del tipo che studio, mi esaurisco e ogni tanto mi dedico alle mie passioni. Se ti trovi qui probabilmente hai trovato il mio piccolo portfolio quindi, visto che ci sei, perché non ci dai un'occhiata?</p>
           </div></div> <!-- Chiusura I am Filo -->
 
-          <div class="curiosities">
+          <div class="curiosities d-flex row align-items-center">
             <div class="text">
               <h4>Qualche piccola curiosité</h4>
             </div>
             <div class="stickers">
-              <img src="./assets/firma2_Filo.png" width="50px"><img src="./assets/firma2_Filo.png" width="50px"><img src="./assets/firma2_Filo.png" width="50px"><img src="./assets/firma2_Filo.png" width="50px"><img src="./assets/firma2_Filo.png" width="50px">
+              <img src="./assets/heartstopper-sticker.png" width="150px"><img src="./assets/heartstopper-sticker.png" width="150px"><img src="./assets/heartstopper-sticker.png" width="150px"><img src="./assets/heartstopper-sticker.png" width="150px">
             </div>
           </div>
 
@@ -109,7 +109,7 @@
               <p class="subheading">Siti web</p>
               <h2>E ho fatto anche dei siti web <i class="fa-solid fa-globe"></i></h2>
             <p>Yup, ho progettato anche dei siti web - ambito comunque collegato alla grafica - e mi sono concentrato anche sull'interfaccia utente e sulla sua usabilità</p><br>
-            <a class="primary-button" href="#"><em>Scopri di più</em><i class="fa-solid fa-arrow-right arrow-button"></i></a>
+            <a class="primary-button" href="./siti.html"><em>Scopri di più</em><i class="fa-solid fa-arrow-right arrow-button"></i></a>
             </div>
             <div class="projects">
               <div class="containers">
@@ -143,7 +143,7 @@
   </button>
               </div>
 <!-- Modal -->
-<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 100000001;">
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 100000002;">
   <div class="modal-dialog modal-dialog-centered">
     <div class="modal-content">
       <div class="modal-header">
@@ -154,16 +154,16 @@
           <div class="dati-personali">
             <div class="nome">
             <label for="nome" class="form-label" style="display: none">Nome</label>
-            <input type="text" class="form-control campo-input" id="nome" placeholder="Nome">
+            <input type="text" class="form-control campo-input" id="nome" placeholder="Nome" required>
           </div>
           <div class="cognome">
             <label for="cognome" class="form-label" style="display: none">Cognome</label>
-            <input type="text" class="form-control campo-input" id="cognome" placeholder="Cognome">
+            <input type="text" class="form-control campo-input" id="cognome" placeholder="Cognome" required>
           </div>
         </div>
           <div class="email">
             <label for="email" class="form-label" style="display: none">Email</label>
-            <input type="email" class="form-control campo-input" id="email" placeholder="hello@itsfilohere.com">
+            <input type="email" class="form-control campo-input" id="email" placeholder="hello@itsfilohere.com" required>
           </div>
           <div class="motivo-contatto">
             <label>Perché mi stai contattando?</label><br>
@@ -175,10 +175,10 @@
             <label for="motivo3">Voglio sborsare gli schei</label>
           </div>
           <div class="messaggio">
-            <textarea class="form-control campo-input" placeholder="Questo spazio è tutto tuo!"></textarea>
+            <textarea class="form-control campo-input" placeholder="Questo spazio è tutto tuo!" required></textarea>
           </div>
           <div class="invio">
-            <input type="checkbox" class="form-check-input" id="privacy">
+            <input type="checkbox" class="form-check-input" id="privacy" required>
             <label for="privacy" class="form-label privacy">Accetto <a href="https://rb.gy/nypvac">l'informativa privacy</a></label><br>
             <button type="submit" class="btn" style="width:100%" data-bs-dismiss="modal">Invia</button>
           </div>
@@ -207,7 +207,7 @@
               </div>
             </div>
             <div class="text">
-              <a href=""><i class="fa-solid fa-house home-footer"></i></a> | <a href="">Chi sono</a> | <a href="">I miei progetti</a> | <a href="">Contattami</a>
+              <a href="./index.html"><i class="fa-solid fa-house home-footer"></i></a> | <a href="#i-am-filo">Chi sono</a> | <a href="./grafica.html">I miei progetti</a> | <a href="#form">Contattami</a>
             </div>
           </div> <!-- Chiusura footer flex-->
             <div class="credits">
