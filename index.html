@@ -133,45 +133,65 @@
               <h2>Ti va di<br>parlare?</h2>
               <p>Se hai visto un qualcosa che ti interessa, vuoi discutere riguardo a un progetto oppure vuoi semplicemente dire "Ciao!", ti basta compilare il form qui a fianco o fare uno squillo. Ti risponderò al più presto!</p>
             </div>
-            <div class="form-container">
-              <form>
-                <div class="dati-personali">
-                  <div class="nome">
-                  <label for="nome" class="form-label" style="display: none">Nome</label>
-                  <input type="text" class="form-control campo-input" id="nome" placeholder="Nome">
-                </div>
-                <div class="cognome">
-                  <label for="cognome" class="form-label" style="display: none">Cognome</label>
-                  <input type="text" class="form-control campo-input" id="cognome" placeholder="Cognome">
-                </div>
+            <div class="form-container row align-items-center">
+              <div class="text-pre-modal">
+                <i class="fa-solid fa-envelope fa-3x icon-envelope"></i>
+                <h2>Inviami un messaggio compilando il modulo</h2>
+                <!-- Button trigger modal -->
+  <button type="button" class="modal-button" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+    Scrivimi <i class="fa-solid fa-arrow-right arrow-button"></i>
+  </button>
               </div>
-                <div class="email">
-                  <label for="email" class="form-label" style="display: none">Email</label>
-                  <input type="email" class="form-control campo-input" id="email" placeholder="hello@itsfilohere.com">
-                </div>
-                <div class="motivo-contatto">
-                  <label>Perché mi stai contattando?</label><br>
-                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo1">
-                  <label for="motivo1">Curiosità</label><br>
-                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo2">
-                  <label for="motivo2">Per scoprire la risposta a ogni domanda della vita</label><br>
-                  <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo3">
-                  <label for="motivo3">Voglio sborsare gli schei</label>
-                </div>
-                <div class="messaggio">
-                  <textarea class="form-control campo-input" placeholder="Questo spazio è tutto tuo!"></textarea>
-                </div>
-                <div class="invio">
-                  <input type="checkbox" class="form-check-input" id="privacy">
-                  <label for="privacy" class="form-label privacy">Accetto <a href="https://rb.gy/nypvac">l'informativa privacy</a></label><br>
-                  <button type="submit" class="btn" style="width:100%">Invia</button>
-                </div>
-              </form>
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true" style="z-index: 100000001;">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="dati-personali">
+            <div class="nome">
+            <label for="nome" class="form-label" style="display: none">Nome</label>
+            <input type="text" class="form-control campo-input" id="nome" placeholder="Nome">
+          </div>
+          <div class="cognome">
+            <label for="cognome" class="form-label" style="display: none">Cognome</label>
+            <input type="text" class="form-control campo-input" id="cognome" placeholder="Cognome">
+          </div>
+        </div>
+          <div class="email">
+            <label for="email" class="form-label" style="display: none">Email</label>
+            <input type="email" class="form-control campo-input" id="email" placeholder="hello@itsfilohere.com">
+          </div>
+          <div class="motivo-contatto">
+            <label>Perché mi stai contattando?</label><br>
+            <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo1">
+            <label for="motivo1">Curiosità</label><br>
+            <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo2">
+            <label for="motivo2">Per scoprire la risposta a ogni domanda della vita</label><br>
+            <input type="radio" class="form-check-input" name="motivo-contatto" id="motivo3">
+            <label for="motivo3">Voglio sborsare gli schei</label>
+          </div>
+          <div class="messaggio">
+            <textarea class="form-control campo-input" placeholder="Questo spazio è tutto tuo!"></textarea>
+          </div>
+          <div class="invio">
+            <input type="checkbox" class="form-check-input" id="privacy">
+            <label for="privacy" class="form-label privacy">Accetto <a href="https://rb.gy/nypvac">l'informativa privacy</a></label><br>
+            <button type="submit" class="btn" style="width:100%" data-bs-dismiss="modal">Invia</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div> <!-- Chiusura modal -->
             </div>
             <div class="telephone">
               <div class="row align-items-center contact">
                 <div>
-                  <p id="small-text"><em>In alternativa chiama lo</em></p>
+                  <p id="small-text"><em>In alternativa chiama lo</em></p><br>
               <p id="bigger-text">0424 066852</p>
                 </div>
             </div>
