@@ -25,6 +25,8 @@ p {
 nav {
     background-color: #FEB91F !important;
     font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
     position: sticky !important;
     top: 0;
     z-index: 100000000;
@@ -34,6 +36,28 @@ nav {
 nav img {
     margin-right: 32px;
 }
+
+nav .dropdown .dropdown-menu {
+    background-color: #9B2226 !important;
+    border: solid 4px #FEB91F !important;
+    border-radius: 0 !important;
+}
+
+nav .dropdown .dropdown-menu .dropdown-item {
+    color: #FEB91F !important;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
+nav .dropdown .dropdown-menu .dropdown-item:hover {
+    color: #9B2226 !important;
+    background-color: #FEB91F;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+}
+
 
 .quote {
     text-align: center;
@@ -93,22 +117,18 @@ h2 {
 }
 
 .curiosities {
-    display: flex;
-    width: 100%;
-    padding: 40px 32px !important;
+    padding: 40px 16px 40px 32px !important;
     background-color: #FEB91F;
 }
 
 .curiosities .text {
-    flex: 1;
-    flex-basis: 40%;
+    width: 40%;
     font-family: 'Ubuntu', sans-serif !important;
     font-weight: bold !important;
 }
 
 .curiosities .stickers {
-    flex: 1;
-    flex-basis: 60%;
+    width: 60%;
     text-align: justify !important;
 }
 
@@ -377,6 +397,7 @@ margin-right: 2px;
 
 .form .form-container form .campo-input::placeholder {
     color: #005F73 !important;
+    opacity: 0.5;
 }
 
 .form .form-container form .campo-input:focus {
@@ -755,3 +776,53 @@ margin-right: 2px;
     outline: 4px solid #CA6702 !important;
     outline-offset: 2px !important;
 }
+
+.sito-us-asiago-alt {
+    background-color: #C5FFFD;
+    border-bottom: solid 4px #FAA916 !important;
+    border-top: solid 4px #FAA916 !important;
+    color: #007991 !important;
+}
+
+.sito-us-asiago-alt .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #007991;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.sito-us-asiago-alt .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.sito-us-asiago-alt .photo {
+    width: 60%;
+    background-image: url('../assets/20230206_001330.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sito-us-asiago-alt .text h2 {
+    margin-bottom: 80px;
+}
+
+.sito-us-asiago-alt .text p {
+   color: #007991 !important;
+}
+
+.modal-content {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+.modal-header {
+    border-bottom: none !important;
+}
+
+.modal-backdrop {
+    z-index: 100000001;
+}
+
