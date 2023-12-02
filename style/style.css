@@ -75,7 +75,7 @@ h2 {
     flex: 1;
     flex-basis: 50%;
     background-image: url("../assets/20230206_001330.jpg");
-    height: 70vh;
+    min-height: 70vh;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -282,22 +282,44 @@ margin-right: 2px;
 .form .text h2 {
     color: #000000;
     margin-bottom: 80px;
+    
 }
 
 .form .form-container {
-    width: 45%;
+    width: 35%;
     padding: 32px;
+    background-color: #94D2BD !important;
+}
+
+.form .form-container .text-pre-modal {
+    text-align: center;
+    border: solid 4px #0A9396;
+    padding: 80px 32px 80px 24px;
+}
+
+.form .form-container .text-pre-modal h2 {
+    color: #0A9396;
+    margin-bottom: 80px;
+}
+
+.form .form-container .text-pre-modal .icon-envelope{
+    color: #0A9396;
+    margin-bottom: 8px;
+    rotate: -15deg;
 }
 
 .form .telephone {
-    width: 25%;
-    padding: 32px 32px 32px 16px;
+    width: 35%;
+    padding: 32px;
+    
 }
 
 .form .telephone .contact {
     background-color: #94D2BD !important;
     text-align: center;
     height: 100%;
+    border: solid 4px #0A9396;
+    padding: 80px 32px 80px 24px
 }
 
 .form .telephone .contact #small-text {
@@ -712,4 +734,24 @@ margin-right: 2px;
     color: #AE2012;
     transition: ease 0.3s;
     box-shadow: none;
+}
+
+.form .form-container .modal-button {
+    background-color: #005F73 !important;
+    color: #ffffff;
+    border-radius: 0;
+    border: none;
+    font-family: 'Titillium Web', sans-serif !important;
+    font-weight: bold !important;
+    text-transform: uppercase !important;
+    padding: 16px 32px;
+}
+
+.form .form-container .modal-button:hover {
+    background-color: #0A9396 !important;
+}
+
+.form .form-container .modal-button:focus {
+    outline: 4px solid #CA6702 !important;
+    outline-offset: 2px !important;
 }
