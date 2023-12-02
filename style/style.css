@@ -119,6 +119,7 @@ h2 {
 .curiosities {
     padding: 40px 16px 40px 32px !important;
     background-color: #FEB91F;
+    overflow: hidden !important;
 }
 
 .curiosities .text {
@@ -129,12 +130,10 @@ h2 {
 
 .curiosities .stickers {
     width: 60%;
-    text-align: justify !important;
 }
 
 .curiosities .stickers img {
-    margin-right: 80px;
-
+    margin-right: 40px;
 }
 
 .graphics {
