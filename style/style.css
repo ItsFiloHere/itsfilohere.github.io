@@ -1,3 +1,8 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
 h1 {
     font-family: 'Ubuntu', sans-serif !important;
     font-size: 48px !important; 
@@ -117,23 +122,18 @@ h2 {
 }
 
 .curiosities {
-    padding: 40px 16px 40px 32px !important;
+    padding: 40px 32px 40px 32px;
     background-color: #FEB91F;
-    overflow: hidden !important;
 }
 
 .curiosities .text {
-    width: 40%;
+    width: 30%;
     font-family: 'Ubuntu', sans-serif !important;
     font-weight: bold !important;
 }
 
 .curiosities .stickers {
-    width: 60%;
-}
-
-.curiosities .stickers img {
-    margin-right: 40px;
+    width: 70%;
 }
 
 .graphics {
@@ -703,7 +703,7 @@ margin-right: 2px;
 
 .sito-tech-is-easy .photo {
     width: 60%;
-    background-image: url('../assets/20230206_001330.jpg');
+    background-image: url('../assets/Tech\ is\ easy/Meme.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -798,10 +798,7 @@ margin-right: 2px;
 
 .sito-us-asiago-alt .photo {
     width: 60%;
-    background-image: url('../assets/20230206_001330.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    
 }
 
 .sito-us-asiago-alt .text h2 {
@@ -810,6 +807,41 @@ margin-right: 2px;
 
 .sito-us-asiago-alt .text p {
    color: #007991 !important;
+}
+
+.sito-tech-is-easy-alt {
+    background-color: #CEEC18;
+    border-bottom: solid 4px #0F797A !important;
+    color: #0F797A !important;
+}
+
+.sito-tech-is-easy-alt .subheading {
+    font-family: 'Titillium Web', sans-serif;
+    color: #0F797A;
+    text-transform: uppercase;
+    margin-bottom: -2px;
+    letter-spacing: 2px;
+}
+
+.sito-tech-is-easy-alt .text {
+    width: 40%;
+    padding: 80px 24px 80px 32px;
+}
+
+.sito-tech-is-easy-alt .photo {
+    width: 60%;
+    background-image: url('../assets/Tech\ is\ easy/Sito.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sito-tech-is-easy-alt .text h2 {
+    margin-bottom: 80px;
+}
+
+.sito-tech-is-easy-alt .text p {
+    color: #0F797A !important;
 }
 
 .modal-content {
