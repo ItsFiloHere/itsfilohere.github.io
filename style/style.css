@@ -256,7 +256,7 @@ margin-right: 2px;
     flex-basis: 40%;
     background-image: linear-gradient(
         rgba(0, 0, 0, 0.45), 
-        rgba(0, 0, 0, 0.45)),  url('../assets/US Asiago/Tavola disegno 1@4x.png');
+        rgba(0, 0, 0, 0.45)),  url('../assets/US Asiago/Prototipo-sito.png');
     background-size: cover;
     background-repeat: no-repeat;
     margin-right: 20px;
@@ -545,7 +545,7 @@ margin-right: 2px;
 .intro-graphics {
     text-align: center;
     padding: 120px 32px;
-    background-image: linear-gradient(45deg, #9E0D14, transparent), url('../assets/sketch1701986801322.png');
+    background-image: linear-gradient(45deg, #9E0D14, transparent), url('../assets/Sfondo\ grafiche\ 2.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -579,7 +579,15 @@ margin-right: 2px;
 
 .what-do-i-do .photo {
     width: 60%;
-    background-image: url('../assets/981d7f8d-39bb-4333-a917-3ac82793c55d.png');
+    background-image: url('../assets/cartolina-solo-certezze.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.what-do-i-do #websites {
+    width: 60%;
+    background-image: url('../assets/US\ Asiago/Prototipo-sito.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -631,7 +639,7 @@ margin-right: 2px;
 .essere-giovani .photo {
     width: 60%;
 
-    background-image: url('../assets/Essere\ giovani\ in\ Altopiano/Cartolina_big.png');
+    background-image: url('../assets/Essere\ giovani\ in\ Altopiano/Cartolina-sfondo.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
